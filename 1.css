@@ -1,0 +1,29 @@
+
+#E{
+    background-color: yellow;
+}
+.C{
+    background-color: black;
+}
+.B{
+    color: white;
+    
+}
+#cart{
+    color: white;
+}
+.A{
+    background-color: black;
+    padding: 5px;
+    justify-content: space-between;
+    display: flex;
+
+}
+.D{
+    color: white;
+    
+    
+}
+.X{
+    color: rgb(14, 11, 11); 
+}
