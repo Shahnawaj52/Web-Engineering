@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>100 Boxes in One Column</title>
+  <style>
+    .box {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 50px; /* 50px gap between boxes */
+      display: block;
+      text-align: center;
+      line-height: 100px;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+
+<script>
+  for (let i = 1; i <= 100; i++) {
+    const div = document.createElement("div");
+    div.className = "box";
+    div.textContent = "Box" + i;
+
+
+    if (i % 2 === 0) {
+      div.style.backgroundColor = "green";
+      div.style.color = "white";
+    } else {
+      div.style.backgroundColor = "orange";
+      div.style.color = "aqua";
+    }
+
+
+    document.body.appendChild(div);
+  }
+</script>
+
+
+</body>
+</html>
