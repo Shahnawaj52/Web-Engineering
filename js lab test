@@ -1,0 +1,27 @@
+const Students = [
+    { name: "Amin", role: 02, subject_scorse:{Bangla:82,English:67,CSE115:72,MAT101:52},attendance: true },
+    { name: "Anik", role: 11, subject_scorse:{Bangla:62,English:65,CSE115:81,MAT101:42},attendance: false },
+    { name: "Anaya", role: 34, subject_scorse:{Bangla:54,English:57,CSE115:72,MAT101:66},attendance: false },
+  ];
+
+
+  for (var i = 0; i < students.length; i++) {
+    var student = students[i];
+ 
+    // Print student name and roll
+    console.log("Student: " + student.name + ", Roll: " + student.roll);
+ 
+    // Check attendance
+    if (student.attendance === false) {
+      console.log("NOT ELIGIBLE");
+    } else {
+      // Calculate total score
+      var scores = student.scores;
+      var total = scores.Bangla + scores.English + scores.CSE115 + scores.MAT101;
+ 
+      // Print total score
+      console.log("Total Score: " + total);
+    }
+ 
+  }
+ 
