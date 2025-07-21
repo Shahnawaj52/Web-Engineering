@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Custom Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <form id="regForm">
+      <h2>Registration Form</h2>
+
+      <label>Email:</label>
+      <input type="email" id="email" required>
+
+      <label>Batch & Section:</label>
+      <input type="text" id="batchSec" placeholder="" required>
+
+      <label>Hobbies (comma separated):</label>
+      <input type="text" id="hobbies" placeholder="" required>
+
+      <label>Password:</label>
+      <input type="password" id="password" required>
+
+      <label>Confirm Password:</label>
+      <input type="password" id="confirmPassword" required>
+
+      <button type="submit">Submit</button>
+      <p id="message"></p>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
